@@ -87,47 +87,27 @@
    </dependencyManagement>	 
    
    <repositories>
-    <repository>
-      <id>flex-mojos-repository</id>
-      <url>http://flex-mojos.googlecode.com/svn/trunk/repository/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>epseelon-repository</id>
-      <url>http://m2repo.epseelon.org/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
+      <repository>
+        <id>flex-mojos-repository</id>
+        <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+        <releases> 
+			<enabled>true</enabled>
+		</releases>
+        <snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+      </repository>
   </repositories>  
   <pluginRepositories>
     <pluginRepository>
-      <id>flex-mojos-repository</id>
-      <url>http://flex-mojos.googlecode.com/svn/trunk/repository/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>epseelon-repository</id>
-      <url>http://m2repo.epseelon.org/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
+        <id>flex-mojos-repository</id>
+        <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+        <releases> 
+			<enabled>true</enabled>
+		</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+    </pluginRepository>    
   </pluginRepositories>
 </project>
